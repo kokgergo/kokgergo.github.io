@@ -1,0 +1,17 @@
+body {
+    padding-top : 4rem;
+    padding-bottom : 3rem;
+}
+#pic-of-me {
+    margin : 1rem;
+
+}
+.lead {
+    text-align : justify;
+}
+.navbar-brand {
+    margin-right: 1.5rem;
+}
+.contacts {
+    text-align: center;
+}

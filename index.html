@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Define meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Import libraries-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Gergely's Webpage</title>
+        <script>
+            $(function(){
+                $("#header").load("header.html")
+                $("#foot").load("foot.html");
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+        </header>
+        <main>
+            <a id="top"></a>
+            <div class="conatiner">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img1.jpg" class="img-fluid" id="pic-of-me" alt="Picture of myself" />
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="display-7">Some text from myself</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus congue augue, vel tincidunt diam faucibus et. In quis velit et nibh feugiat tristique. Praesent porttitor metus ac enim porttitor porta id a sem. Suspendisse est nibh, fringilla vitae lacus nec, fringilla congue justo. Cras dignissim viverra tortor ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur posuere enim et diam sollicitudin interdum. Vestibulum et est efficitur erat pretium pellentesque. In non ultrices sapien. Quisque eget laoreet orci, et pulvinar dolor. Quisque viverra nunc ac augue rutrum pharetra. Nunc ornare ligula nec eleifend tincidunt. In nec libero dui. Fusce tincidunt sodales odio a semper. Nunc ullamcorper, dolor eget dictum auctor, tortor sem facilisis felis, ut fringilla urna sapien quis diam.</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="container" id="foot">
+        </footer>
+    </body>
+</html>
