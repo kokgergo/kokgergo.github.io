@@ -22,16 +22,16 @@
         <header id="header">
         </header>
         <main>
-            <script>
-                const button = document.getElementById('email-btn');
-                console.log(button);
-                button.addEventListener("click", window.open('mailto:test@example.com?subject=subject&body=body'));
-            </script>
+
             <a id="top"></a>
             <div class="contacts">
-                <button type="button" class="btn btn-light" id="email-btn">Email</button>
+                <button type="button" class="btn btn-primary" id="mailbtn">Email</button>
             </div>
-
+            <script>
+                let click = 0;
+                const btn = document.getElementById("mailbtn");
+                btn.onclick = function(){window.open('mailto:kok.gergo@gmail.com?subject=website Hi!&body=Hi Gergo!')};
+            </script>
         </main>
         <footer class="container" id="foot">
         </footer>
